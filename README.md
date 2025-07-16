@@ -1,17 +1,20 @@
 # graph-algorithms-comparison
-To repozytorium zawiera implementacje oraz testy wybranych algorytmów grafowych wykorzystywanych do wyznaczania najkrótszych ścieżek, drzew rozpinających oraz maksymalnych przepływów. Projekt umożliwia porównanie działania i wydajności algorytmów dla tych samych danych wejściowych zapisanych w równoważnych reprezentacjach grafu: jako macierz sąsiedztwa oraz lista sąsiedztwa.
+This repository contains implementations and performance comparisons of selected sorting algorithms, including both classical and custom variants. The project enables benchmarking different sorting strategies on identical datasets with a focus on execution time and efficiency.
 
-Zaimplementowane algorytmy
-Dijkstra – algorytm najkrótszej ścieżki dla grafów z nieujemnymi wagami
-Bellman-Ford – algorytm najkrótszej ścieżki obsługujący ujemne wagi
-Ford-Fulkerson – algorytm maksymalnego przepływu w grafie sieciowym
-Prim – algorytm minimalnego drzewa rozpinającego (MST)
-Kruskal – alternatywny algorytm MST wykorzystujący sortowanie krawędzi
+Implemented Algorithms
+Insertion Sort - standard version
+Binary Insertion Sort - uses binary search to find the insertion point
+Quick Sort - divide-and-conquer based fast sorting
+Heap Sort - sorting via heap construction
+Drunk Student Sort - a slowed-down, randomized interpretation of insertion sort (for educational/fun purposes)
 
-Funkcjonalności
-Porównanie czasu wykonania dla różnych algorytmów
-Wsparcie dla dwóch reprezentacji grafu:
-Macierz sąsiedztwa
-Lista sąsiedztwa
-Te same dane testowe są automatycznie konwertowane na obie reprezentacje, aby zapewnić sprawiedliwe porównanie
+Features
+Execution time measurement
+Testing on:
+Randomized arrays
+Sorted arrays
+Reversed arrays
+
+Project Goal
+To provide an educational platform for analyzing and comparing different sorting methods, including a humorous take on algorithmic inefficiency ("Drunk Student").
 
